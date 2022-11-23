@@ -2,6 +2,7 @@
 
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -84,29 +85,83 @@ nav.navbartransparente {
     padding: 20px 0;
 }
 
-#servico h2, h3 {
+#servico h2 {
     color: #7c25f8;
 }
 
+#servico h3 {
+    color: #7c25f8;
+}
+
+#servico p {
+    color: black;
+}
 .albuns {
     padding: 10px 0;
 }
 
-h2 {
+#servico h2 {
     font-size: 3em;
     font-weight: 700;
     letter-spacing: -0.04em;
 }
 
-h3 {
+#servico h3 {
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04em;
 }
 
+#recursos h2, p {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos {
+    padding: 20px 0;
+}
+
+.rotacao {
+    transform: rotate(30deg);
+    padding-left: 60px;
+}
+
+footer{
+    background: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 00.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #5fe4cb;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
 @media (max-width: 575.98px) {
-    #home .btn .btn-custom {
-        margin-top: 15px 10px;
+    #home .capa .btn .btn-custom {
+        margin: 15px 10px;
     }
 }
 
@@ -114,8 +169,8 @@ h3 {
     .capa h1 {
         font-size: 3em;
     }
-    #home .btn .btn-custom {
-        margin-top: 15px 10px;
+    #home .capa .btn .btn-custom {
+        margin: 15px 10px;
     }
 }
 
